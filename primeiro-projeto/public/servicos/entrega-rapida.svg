@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7c4"/>
+      <stop offset="100%" stop-color="#ffe14a"/>
+    </linearGradient>
+    <linearGradient id="mapa" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34a853"/>
+      <stop offset="100%" stop-color="#1e7a34"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#ceu)"/>
+  <g fill="#fff6bf" opacity="0.7">
+    <circle cx="120" cy="70" r="40"/>
+    <circle cx="1080" cy="80" r="56"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.9">
+    <path d="M70 150h90"/>
+    <path d="M48 178h62"/>
+    <path d="M1040 150h90"/>
+    <path d="M1070 178h58"/>
+  </g>
+  <g transform="translate(455 36)">
+    <path fill="url(#mapa)" d="M118 8c22 2 38 18 48 32 16-6 36 4 48 20 18 22 28 40 42 52 10 8 28 10 36 26 10 20 6 42-8 58-6 22 8 40 2 60-8 26-28 42-40 64-14 24-20 52-42 66-18 12-44 14-58 2-14 14-36 16-54 6-22-8-36-28-54-34-20-8-46-4-60-22-14-16-16-40-28-56-14-20-36-28-40-52-4-26 10-50 22-70 8-22-4-46 10-64 16-22 42-32 58-52 12-16 16-40 34-52 14-8 36-10 50-14 10-4 18-12 34-10z"/>
+    <path fill="#ffe14a" d="M132 118l58-34 58 34-58 96z"/>
+    <circle cx="190" cy="148" r="20" fill="#2b6cb0"/>
+  </g>
+  <g transform="translate(150 168)">
+    <rect x="0" y="34" width="150" height="58" rx="8" fill="#3483fa"/>
+    <path d="M150 46h46l30 46H150z" fill="#1f6fe0"/>
+    <rect x="16" y="46" width="42" height="26" rx="4" fill="#d7ebff"/>
+    <circle cx="42" cy="102" r="15" fill="#333"/>
+    <circle cx="42" cy="102" r="6" fill="#eee"/>
+    <circle cx="148" cy="102" r="15" fill="#333"/>
+    <circle cx="148" cy="102" r="6" fill="#eee"/>
+    <rect x="176" y="74" width="26" height="14" rx="3" fill="#fff159"/>
+  </g>
+  <g transform="translate(900 176)">
+    <rect x="0" y="26" width="50" height="42" rx="4" fill="#c47b2b"/>
+    <rect x="10" y="6" width="50" height="42" rx="4" fill="#e8a04a"/>
+    <path d="M10 6l25 14 25-14" fill="none" stroke="#b8742a" stroke-width="3"/>
+    <rect x="74" y="16" width="44" height="36" rx="4" fill="#d4923c"/>
+    <path d="M74 16l22 12 22-12" fill="none" stroke="#a86a28" stroke-width="3"/>
+  </g>
+</svg>
